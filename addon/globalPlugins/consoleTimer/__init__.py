@@ -1,11 +1,11 @@
-# consoleKurk: An Add-on for nvda that does <Insert thing here>
+# consoleTimer: An Add-on for nvda that does <Insert thing here>
 
 #Copyright (C) 2016 derek riemer
 
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
 
-"""consoleKurk:
+"""consoleTimer:
 A global plugin to make consoles read correctly.
 """
 
