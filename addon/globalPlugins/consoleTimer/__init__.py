@@ -1,6 +1,6 @@
 # consoleTimer: An Add-on for nvda that does <Insert thing here>
 
-#Copyright (C) 2016 derek riemer
+#Copyright (C) 2016-2017 derek riemer
 
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
