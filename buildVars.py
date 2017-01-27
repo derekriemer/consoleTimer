@@ -11,15 +11,17 @@ addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
-	"addon_name" : "consoleKurk",
+	"addon_name" : "consoleTimer",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
-	"addon_summary" : _("Press nvda+shif+pg-up/down to change the timeout in consoles"),
+	"addon_summary" : _("Console Timer"),
 	# Add-on description: can span multiple lines with """ syntax """
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description" : _("This is my first add-on. It currently does nothing."),
+	"addon_description" : _("""
+	Press nvda+shif+pg-up/down to change the timeout in consoles. If NVDA's not reading  correctly in consoles do this.
+	"""),
 	# version
-	"addon_version" : "1610",
+	"addon_version" : "16.11",
 	# Author(s)
 	"addon_author" : "derek riemer <driemer.riemer@gmail.com>",
 	# URL for the add-on documentation support
