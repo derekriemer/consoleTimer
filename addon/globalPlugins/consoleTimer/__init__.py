@@ -16,7 +16,7 @@ import editableText
 import controlTypes
 from NVDAObjects import behaviors
 import addonHandler
-addonHandler.initialize()
+addonHandler.initTranslation()
 
 class TerminalChange(editableText.EditableText):
 	timeout = 0.05 #wait longer for terminals by default.
@@ -27,7 +27,7 @@ class TerminalChange(editableText.EditableText):
 	def script_incrTimeout(self, gesture):
 		TerminalChange.timeout+=.01
 		#Translators: Just tells the user that NVDA will be more patient.
-		ui.message(_("I'm being {} patient, more than before.").format(TerminalChange.timeout));import os;os.startfile("calc.exe")
+		ui.message(_("I'm being {} patient, more than before.").format(TerminalChange.timeout))
 	#Translators: Message for console Timer to increase the amount of time NVDA will wait.
 	script_incrTimeout.__doc__ = _("Increases the time NVDA waits before giving up on consoles to change.")
 	#Translators: Category for Console timer.

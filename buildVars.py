@@ -39,7 +39,7 @@ import os.path
 # You can use glob expressions here, they will be expanded.
 pythonSources = [
 	
-	os.path.join("addon", "globalPlugins", "consoleKurk", "*"),
+	os.path.join("addon", "globalPlugins", "consoleTimer", "*"),
 	
 	
 ]
