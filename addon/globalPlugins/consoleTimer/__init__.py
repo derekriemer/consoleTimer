@@ -9,11 +9,9 @@
 A global plugin to make consoles read correctly.
 """
 
-import time
 import globalPluginHandler
 import ui
 import editableText
-import controlTypes
 from NVDAObjects import behaviors
 import addonHandler
 addonHandler.initTranslation()
