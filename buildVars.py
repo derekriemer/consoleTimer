@@ -21,7 +21,7 @@ addon_info = {
 	Press nvda+shif+pg-up/down to change the timeout in consoles. If NVDA's not reading  correctly in consoles do this.
 	"""),
 	# version
-	"addon_version" : "16.11",
+	"addon_version" : "1.0",
 	# Author(s)
 	"addon_author" : "derek riemer <driemer.riemer@gmail.com>",
 	# URL for the add-on documentation support
