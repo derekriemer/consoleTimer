@@ -35,7 +35,7 @@ class TerminalChange(editableText.EditableText):
 		if TerminalChange.timeout >= .01:
 			TerminalChange.timeout-=.01
 			#Translators: Just tells the user that NVDA will be less patient.
-			ui.message("I'm being {} patient, less than before.".format(TerminalChange.timeout))
+			ui.message(_("I'm being {} patient, less than before.".format(TerminalChange.timeout)))
 		else:
 			#Translators: Just the word for error.
 			ui.message(_("Error"))
